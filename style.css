@@ -39,3 +39,8 @@
     margin: 5px;
     padding: 2px;
 }
+.digi{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
