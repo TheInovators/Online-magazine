@@ -1,12 +1,18 @@
-*{
+.a{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blanchedalmond;
+    /* background-image: url(Screenshot\ 2024-10-12\ 030116.png); */
+    background-color:bisque;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 .Main{
  height: 100%;
  width: 100%;
+ font-size: 50px;
  background-color: rgb(227, 166, 75);
  display: flex;
  flex-direction: row;
@@ -17,7 +23,21 @@
     flex-direction: row;
     justify-content: center;  
 }
+.News{
+    
+    position: relative;
+    animation: 10s linear 2s infinite slideright;
+}
+@keyframes slideright{ 
+0%{
+    transform: translateX(0%);
+}
+100%{
+    transform: translateX(100%);
+}
+}
 .Registor{
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -39,8 +59,29 @@
     margin: 5px;
     padding: 2px;
 }
-.digi{
+
+section{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+/* align-items: end; */
+justify-content: right;
+}
+button{
+    color: antiquewhite;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(49, 49, 49);
+}
+.allnews{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    margin: 20px;
+}
+.Bulletin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   font-size: 30px; 
+ background-color: rgb(227, 166, 75);
 }
