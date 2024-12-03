@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazette</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body class="a">
+    <header>
+        <!-- <img src="Logo.png" alt="wait" height="50px" width="50px"> -->
+        <h1 class="Main">Welcome to <span class="highlight">Gazette</span></h1>
+        <nav class="navigation">
+            <a href="index1.html">Home</a>
+            <a href="About1.html">About</a>
+            <a href="Videos.html">Magazines</a>
+            <a href="Login.html">Login</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Reels.html">Videos</a>
+            <button class="theme-toggle-btn"><img src="change.png" alt="Wait" height="10px" width="10px"></button>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="overlay">
+            <h2>Your Daily Dose of News</h2>
+            <p>Stay informed with the latest in education, technology, politics, and business.</p>
+            <a href="#Bulletin" class="cta-btn">Explore More</a>
+        </div>
+    </section>
+    <section class="signup-section">
+        <h3 class="Main1">Register Now!</h3>
+        <form class="signup-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="country-code">Country Code:</label>
+            <select id="country-code" name="country-code" required>
+              <option value="+91" selected>+91(India)</option>
+              <option value="+1">+1(USA)</option>
+              <option value="+44">+44(UK)</option>
+              <option value="+61">+61(Australia)</option>
+  </select>
+  <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{10}" placeholder="908XXXXX52" required>
+  <!-- <small>Enter a 10-digit phone number.</small> -->
+            <label for="DOB">DOB:</label>
+            <input type="date" id="DOB" required>
+            <button id="btn" type="submit">Submit</button>
+            <p><a href="Login.html">Already have an account?</a></p>
+        </form>
+    </section>
+    <section id="Bulletin">
+        <h3 class="Bulletin">Bulletin's of the Day</h3>
+        <div class="news-grid">
+            <div class="news-item">
+                <a href="https://timesofindia.indiatimes.com/education">
+                    <img src="EducationalNews.png" alt="Educational News">
+                </a>
+                <h4>Education News</h4>
+                <p>Latest updates on education, exams, and more.
+                    Here are some recent education news stories from The Indian Express: <br>
+                    => UGC NET June 2024: The final answer key for the UGC NET June 2024 exam was released on ugcnet.nta.ac.in. <br>
+                    => PM Internship Scheme: The application process for the PM Internship Scheme has started. <br>
+                    => NEET SS 2024: The NBEMS has revised the super specialty exam pattern for NEET SS 2024. <br>
+                    => CLAT 2025: The syllabus overhaul for CLAT 2025 will affect scores, with a focus on problem solving and critical thinking. <br>
+                    => Motilal Oswal Knowledge Centre: The Motilal Oswal Knowledge Centre was launched by IIM Mumbai and the Motilal Oswal Foundation. <br>
+                    => Indian Institute of Skills (IIS) Mumbai: PM Modi inaugurated the Indian Institute of Skills (IIS) Mumbai, which was established through a Public-Private Partnership (PPP) model. <br>
+                    => Valve and Steam: Valve, the company behind Steam, announced that purchases on the platform are actually licenses, following a new law in California. <br>
+                    => RTE forum: The RTE forum demanded the inclusion of Urdu in the upcoming TAT exam. <br>
+                    => Institutional Development Plan Guidelines: The UGC launched the Institutional Development Plan Guidelines, which provide a strategic framework for institutions to set goals, track progress, and implement initiatives. 
+                </p>
+                <a href="https://timesofindia.indiatimes.com/education" class="read-more">Read More</a>
+            </div>
+            <div class="news-item">
+                <a href="https://indianexpress.com/about/digital/">
+                    <img src="Digitalnews.png" alt="Digital News">
+                </a>
+                <h4>Digital News</h4>
+                <p>Breaking tech news and updates.
+                    => AI Breakthrough: Researchers at MIT have developed a new AI model capable of understanding and responding to complex human emotions.  <br>
+                    => Cybersecurity Threat: A major data breach has exposed millions of personal records from a popular online retailer.<br>
+                    => Tech Giant Merger: Two leading tech companies announce plans to merge, creating a global digital behemoth.<br>
+                    => Space Exploration: NASA's latest Mars rover has discovered evidence of ancient microbial life on the Red Planet.<br>
+                    => Cryptocurrency Crash: A major cryptocurrency exchange faces bankruptcy after a series of fraudulent transactions.<br>
+                    => Social Media Censorship: A controversial new law goes into effect in a major country, restricting online speech and limiting access to certain websites.<br>
+                    => E-commerce Boom: Online shopping continues to surge, with a record number of consumers purchasing goods and services digitally.<br>
+                    => Virtual Reality Gaming: A new generation of VR headsets is set to hit the market, promising immersive gaming experiences.<br>
+                    => Digital Divide: Concerns grow about the widening gap between those with and without access to technology and the internet.
+                </p>
+                <a href="https://indianexpress.com/about/digital/" class="read-more">Read More</a>
+            </div>
+            <div class="news-item">
+                <a href="https://indianexpress.com/section/political-pulse/">
+                    <img src="Political.png" alt="Political News">
+                </a>
+                <h4>Political News</h4>
+                <p>Key developments in global politics.
+                    => Global Summit: Leaders from major world powers gather for a crucial summit to discuss pressing issues such as climate change, trade, and regional conflicts.<br>
+                    => Domestic Elections: A hotly contested election takes place in a major country, with the outcome expected to have significant implications for both domestic and international politics.<br>
+                    => Political Scandals: Allegations of corruption and misconduct rock several governments, leading to protests and calls for resignations.<br>
+                    => Foreign Policy Shifts: A major country announces a significant change in its foreign policy stance, potentially altering the balance of power in the region.<br>
+                    => Social Unrest: Protests and demonstrations break out in several countries, driven by economic hardship, inequality, and political grievances.<br>
+                    => Military Coups: Concerns arise about the potential for military coups in unstable regions, as political tensions escalate.<br>
+                    => Nuclear Proliferation: Efforts to prevent the spread of nuclear weapons face challenges, with some countries expressing interest in developing nuclear capabilities.<br>
+                    => Cyber Warfare: The threat of cyberattacks on critical infrastructure and government systems remains a major concern, with tensions between nations escalating in the digital realm.
+                </p>
+                <a href="https://indianexpress.com/section/political-pulse/" class="read-more">Read More</a>
+            </div>
+            <div class="news-item">
+                <a href="https://m.economictimes.com/">
+                    <img src="BusinessNews.png" alt="Business News">
+                </a>
+                <h4>Business News</h4>
+                <p>Stay updated on market trends and economic news.
+                    => Market Volatility: Global stock markets experience significant fluctuations amid concerns over economic growth, trade tensions, and geopolitical risks.<br>
+                    => Corporate Mergers: Two major industry rivals announce plans to merge, creating a dominant force in their sector.<br>
+                    => Startup Funding: A promising tech startup secures a massive funding round, valuing the company at billions of dollars.<br>
+                    => Economic Indicators: Key economic indicators, such as GDP growth, inflation, and unemployment rates, are released, providing insights into the global economic outlook.<br>
+                    => Trade Disputes: Trade tensions between major economies escalate, leading to threats of tariffs and import restrictions.<br>
+                    => Supply Chain Disruptions: Ongoing supply chain issues continue to impact businesses worldwide, leading to shortages of essential goods and rising prices.<br>
+                    => Automation and Job Losses: Concerns grow about the impact of automation and artificial intelligence on jobs, as more tasks are performed by machines.<br>
+                    => Climate Change Risks: Businesses face increasing pressure to address climate change risks and adopt sustainable practices.<br>
+                    => Cryptocurrency Trends: The cryptocurrency market remains volatile, with some coins experiencing significant gains or losses.
+                </p>
+                <a href="https://m.economictimes.com/" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gazette Magazine. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://m.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
